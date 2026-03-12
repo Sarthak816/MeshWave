@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MeshWave" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
+
+    <style name="Theme.MeshWave.Toolbar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:titleTextColor">@color/on_primary</item>
+    </style>
+
+    <style name="BubbleOutgoing">
+        <item name="android:background">@drawable/bg_bubble_outgoing</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="BubbleIncoming">
+        <item name="android:background">@drawable/bg_bubble_incoming</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

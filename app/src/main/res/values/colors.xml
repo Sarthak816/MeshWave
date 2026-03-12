@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: dark forest green -->
+    <color name="seed">#2E7D32</color>
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_variant">#388E3C</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary: warm amber/tan -->
+    <color name="secondary">#E8A14A</color>
+    <color name="secondary_dark">#C77E2A</color>
+    <color name="on_secondary">#1C1B1F</color>
+
+    <!-- Background and surfaces -->
+    <color name="background">#F5F2ED</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EDEAE4</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="on_surface_variant">#4A4740</color>
+
+    <!-- Status -->
+    <color name="error">#BA1A1A</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="success">#388E3C</color>
+    <color name="warning">#E8A14A</color>
+
+    <!-- Chat bubbles -->
+    <color name="bubble_outgoing">#C8E6C9</color>
+    <color name="bubble_incoming">#EDEAE4</color>
+    <color name="bubble_sos">#FFCDD2</color>
+
+    <!-- Misc -->
+    <color name="divider">#D6D2CC</color>
+    <color name="text_hint">#8A8580</color>
+    <color name="peer_online">#4CAF50</color>
+    <color name="peer_offline">#9E9E9E</color>
+</resources>
