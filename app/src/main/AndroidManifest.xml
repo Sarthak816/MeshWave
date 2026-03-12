@@ -24,16 +24,16 @@
     <uses-feature android:name="android.hardware.wifi.direct" android:required="true" />
 
     <application
-        android:name=".MeshNetApp"
-        android:label="MeshNet Chat"
+        android:name=".MeshWaveApp"
+        android:label="MeshWave"
         android:icon="@mipmap/ic_launcher"
-        android:theme="@style/Theme.MeshNetChat"
+        android:theme="@style/Theme.MeshWave"
         android:allowBackup="false">
 
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"
-            android:label="MeshNet Chat">
+            android:label="MeshWave">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
