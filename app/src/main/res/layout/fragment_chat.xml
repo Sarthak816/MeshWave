@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Messages list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messagesRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+
+    <!-- Empty state -->
+    <TextView
+        android:id="@+id/emptyText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/no_messages"
+        android:textColor="@color/text_hint"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:padding="32dp" />
+
+    <!-- Input area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:background="@color/surface"
+        android:elevation="4dp">
+
+        <!-- SOS toggle -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sosButton"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:minWidth="0dp"
+            android:text="@string/sos_label"
+            android:textColor="@color/error"
+            android:textSize="11sp"
+            android:paddingHorizontal="8dp"
+            android:layout_marginEnd="4dp" />
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_field"
+            android:hint="@string/hint_message"
+            android:textColorHint="@color/text_hint"
+            android:textColor="@color/on_surface"
+            android:textSize="15sp"
+            android:paddingHorizontal="16dp"
+            android:maxLines="3"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionSend" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_send"
+            android:background="@color/primary"
+            android:contentDescription="@string/btn_send"
+            android:scaleType="centerInside"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
